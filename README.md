@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Ignacio%20(Nacho)&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20agents%20%C2%B7%20Automations%20%C2%B7%20LLMs&descSize=18&descAlignY=58)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Ignacio%20Rodr%C3%ADguez%20Caro&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20agents%20%C2%B7%20Automations%20%C2%B7%20LLMs&descSize=18&descAlignY=58)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=I+build+AI+agents+and+automations+with+LLMs;The+model+proposes%2C+the+code+decides;Guardrails%2C+evals+and+observability)](https://github.com/rnachoc)
 
