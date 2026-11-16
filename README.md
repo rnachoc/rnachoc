@@ -49,6 +49,13 @@ class Ignacio:
 
 #### 📦 Featured projects
 
+**[AduanAI](https://github.com/rnachoc/AduanAI)**: a control gateway for AI agents, in Java and Spring Boot. Every MCP tool call is checked by a policy written in code, held for a person's approval when it matters, and recorded in a hash-chained log that anyone can verify. Measured: 78 of 78 deterministic attack cases stopped (7 of 13 for the heuristic defences, with the escapes listed), 15.5 ms of added latency at p99 under 200 requests per second, and a mutation score of 91 to 93 %. Released as v0.1.0 under Apache-2.0.
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_server-111111?style=flat-square)
+![Angular](https://img.shields.io/badge/Angular_console-DD0031?style=flat-square&logo=angular&logoColor=white)
+
 **[Turno](https://github.com/rnachoc/turno)**: a team of AI agents that runs the front desk of a fictional clinic over web chat, voice, WhatsApp and email, with published measurements. Agents propose and a Java and Spring Boot core decides (availability, rules, consent, audit), and emergencies are answered by fixed rules before any model is involved. Measured with the real models on 50 simulated-patient scenarios, one run each: Haiku 49, Sonnet 48, Opus 46. 97 of 97 attacks stopped on each build, and about 1,100 automated tests. Synthetic data only. [Replay of the conversations](https://rnachoc.github.io/turno/replay/)
 
 ![Claude](https://img.shields.io/badge/Claude_tool_use-D97757?style=flat-square&logo=anthropic&logoColor=white)
@@ -60,7 +67,7 @@ class Ignacio:
 ![MCP](https://img.shields.io/badge/MCP_server-111111?style=flat-square)
 ![Evals](https://img.shields.io/badge/evals-555555?style=flat-square)
 
-**[GuardiAI](https://github.com/rnachoc/GuardiAI)**: an AI on-call engineer for a seven-service marketplace built to be broken on purpose. When an alert fires, agents investigate with read-only MCP tools over metrics, logs, traces and change history, and every claim must cite evidence that code re-checks. A policy engine written in code decides which approved action may run, keeps a hash-chained audit log and verifies the recovery. 20 incident scenarios recorded with a sealed ground truth. Work in progress: phases 0 to 6 of 10 are done, and no model has been measured yet, so no results are published.
+**[GuardiAI](https://github.com/rnachoc/GuardiAI)**: an AI on-call engineer for a seven-service marketplace built to be broken on purpose. When an alert fires, agents investigate with read-only MCP tools over metrics, logs, traces and change history, and every claim must cite evidence that code re-checks. A policy engine written in code decides which approved action may run, keeps a hash-chained audit log and verifies the recovery. 40 incident scenarios recorded with a sealed ground truth. Work in progress: phases 0 to 6 of 10 are done, and no model has been measured yet, so no results are published.
 
 ![Claude](https://img.shields.io/badge/Claude_agents-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP_servers-111111?style=flat-square)
@@ -71,17 +78,7 @@ class Ignacio:
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-**[Tramita](https://github.com/rnachoc/tramita)**: an AI agent system that processes claims for a fictional insurer. It reads the documents, checks coverage with exact clause citations, looks for fraud signals with evidence and proposes a resolution, while deterministic rules in code decide whether it runs or goes to a human review console. Work in progress: phase 2 of 12 is done (the core system and rules in Java and Spring Boot), with the agents, retrieval and console planned next.
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Temporal](https://img.shields.io/badge/Temporal-141414?style=flat-square&logo=temporal&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-111111?style=flat-square)
-
-**[Hilo](https://github.com/rnachoc/quilora-assistant)**: a customer support agent for a made-up online fashion store. It answers from the store's catalog, stock and order data, handles returns with a two-step confirmation and hands over to a person when needed. Claude tool use, FastAPI, Postgres/pgvector, an MCP server, an Angular widget, evals and OpenTelemetry. The idea behind it: the model proposes, the code decides.
+**[Hilo (quilora-assistant)](https://github.com/rnachoc/quilora-assistant)**: a customer support agent for a made-up online fashion store. It answers from the store's catalog, stock and order data, handles returns with a two-step confirmation and hands over to a person when needed. Claude tool use, FastAPI, Postgres/pgvector, an MCP server, an Angular widget, evals and OpenTelemetry. The idea behind it: the model proposes, the code decides. 165 automated tests and 83 evaluation cases are written; results against the real model are not published yet.
 
 ![Claude](https://img.shields.io/badge/Claude_tool_use-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -99,11 +96,15 @@ class Ignacio:
 ![Node.js](https://img.shields.io/badge/Node.js_Fastify-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React_Vite-20232A?61DAFB&logo=react&logoColor=style=flat-square)
 
-**[IA en apuros](https://github.com/rnachoc/iaenapuros)**: a fully local pipeline that writes, renders, reviews and ships one comedy short per day. A scheduled Claude Code agent picks the topic and writes the script following the rules in the repo, and code does the rest: voice, 3D render, QA, captions and a simulated audience of five AI viewers that can send the episode back for up to three rewrites. No paid APIs. An unofficial parody, not affiliated with Anthropic.
+**[Tramita](https://github.com/rnachoc/tramita)**: an AI agent system that processes claims for a fictional insurer. It reads the documents, checks coverage with exact clause citations, looks for fraud signals with evidence and proposes a resolution, while deterministic rules in code decide whether it runs or goes to a human review console. Work in progress: phase 2 of 12 is done (the core system and rules in Java and Spring Boot), with the agents, retrieval and console planned next.
 
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?black&logo=javascript&logoColor=style=flat-square)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Temporal](https://img.shields.io/badge/Temporal-141414?style=flat-square&logo=temporal&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-111111?style=flat-square)
 
 **[Leora](https://github.com/rnachoc/leora)**: a mobile reading library designed around AI recommendations grounded in a real book catalog, so the model never invents titles. React Native, Expo and TypeScript. [Live demo](https://rnachoc.github.io/leora/app/)
 
@@ -111,7 +112,10 @@ class Ignacio:
 ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-**[Sevilla Sim](https://github.com/rnachoc/sevilla-sim)**: Seville in 3D in the browser with three.js. The historic centre and Triana are generated from OpenStreetMap data, with the IGN orthophoto on ground and roofs and building heights from the Catastro. Inspired by mrdoob's Slop New York, with its own code.
+**Other experiments**
+
+- **[IA en apuros](https://github.com/rnachoc/iaenapuros)**: a local pipeline that writes, renders, reviews and ships one comedy short per day. An unofficial parody, not affiliated with Anthropic.
+- **[Sevilla Sim](https://github.com/rnachoc/sevilla-sim)**: Seville in 3D in the browser with three.js, built from OpenStreetMap, IGN and Catastro data.
 
 ---
 
