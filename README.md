@@ -96,7 +96,7 @@ class Ignacio:
 ![Node.js](https://img.shields.io/badge/Node.js_Fastify-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React_Vite-20232A?61DAFB&logo=react&logoColor=style=flat-square)
 
-**[Tramita](https://github.com/rnachoc/tramita)**: an AI agent system that processes claims for a fictional insurer. It reads the documents, checks coverage with exact clause citations, looks for fraud signals with evidence and proposes a resolution, while deterministic rules in code decide whether it runs or goes to a human review console. Work in progress: phase 2 of 12 is done (the core system and rules in Java and Spring Boot), with the agents, retrieval and console planned next.
+**[Tramita](https://github.com/rnachoc/tramita)**: an AI agent system that processes claims for a fictional insurer. It reads the documents, checks coverage with exact clause citations, looks for fraud signals with evidence and proposes a resolution, while deterministic rules in code decide whether it runs or goes to a human review console. All 12 phases are done (v1.0.0), with a Java and Spring Boot core, Kafka events, Temporal workflows, an MCP server for analysts and an Angular review console. On 150 synthetic claims the keyless baseline gets 96.2% of decisions right and settles none automatically that a person should have seen. There are no real-model numbers yet.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
