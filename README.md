@@ -106,6 +106,18 @@ class Ignacio:
 ![Temporal](https://img.shields.io/badge/Temporal-141414?style=flat-square&logo=temporal&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-111111?style=flat-square)
 
+**[Cimiento](https://github.com/rnachoc/cimiento)**: a multi-agent system for a construction company, on synthetic data. Agents read tender documents with a citation to document and page for every fact, measure and price the work, plan the schedule, follow site progress and draft reports; a Java and Spring Boot core decides with a deterministic rule engine (critical path, budget, contract term), a hash-chained audit log that names the person, four-eyes review of corrections, bid pipeline, MS Project and BC3 exports, and monthly certifications of site work calculated in code. It comes with an Angular review console, a read-only MCP server, Kafka events and OpenTelemetry traces. The Java engine agrees with an independent Python reference on 66 of 66 generated tenders. The keyless baseline (no model) verifies 2,226 of 2,226 citations, obeys none of the planted instructions and writes nothing outside its allow list; its field extraction is 68.2 % on held-out wording, and that gap is published. About 80 commits with CI green. There are no real-model numbers yet.
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular_console-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Postgres](https://img.shields.io/badge/Postgres%2Fpgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_server-111111?style=flat-square)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
+![Evals](https://img.shields.io/badge/evals-555555?style=flat-square)
+
 **[Leora](https://github.com/rnachoc/leora)**: a mobile reading library designed around AI recommendations grounded in a real book catalog, so the model never invents titles. React Native, Expo and TypeScript. [Live demo](https://rnachoc.github.io/leora/app/)
 
 ![React Native](https://img.shields.io/badge/React_Native-20232A?61DAFB&logo=react&logoColor=style=flat-square)
