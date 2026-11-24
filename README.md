@@ -178,6 +178,12 @@ class Ignacio:
 
 ---
 
+#### 🎓 Certifications
+
+Anthropic: Claude with the Anthropic API · Model Context Protocol: Introduction · Model Context Protocol: Advanced Topics (2026)
+
+---
+
 #### 📫 Contact
 
 [LinkedIn](https://www.linkedin.com/in/ignaciorodriguezcaro) · rnachoccontact@gmail.com
