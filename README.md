@@ -180,7 +180,7 @@ class Ignacio:
 
 #### 🎓 Certifications
 
-Anthropic: Claude with the Anthropic API · Model Context Protocol: Introduction · Model Context Protocol: Advanced Topics · Claude with Amazon Bedrock · Claude with Google Vertex AI · Introduction to agent skills · Introduction to subagents (2026)
+Anthropic: Claude with the Anthropic API · Model Context Protocol: Introduction · Model Context Protocol: Advanced Topics · Claude with Amazon Bedrock · Claude with Google Vertex AI · Introduction to agent skills · Introduction to subagents · Claude Code in Action · Claude Code 101 · Claude Platform 101 · Claude 101 · Introduction to Claude Cowork (2026)
 
 ---
 
